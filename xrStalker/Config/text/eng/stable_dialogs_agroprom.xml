@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="windows-1251" standalone="no" ?>
+<string_table>
+    <string id="agr_factory_krot_start_0">
+        <text>Thanks for your help, stalker! If it weren't for your timely help, I would have been dead for now.</text>
+    </string>
+    <string id="agr_factory_krot_start_10001">
+        <text>I'm looking for information concerning Gunslinger, maybe you know somethung?</text>
+    </string>
+    <string id="agr_factory_krot_start_10002">
+        <text>How can I get in those cellars?</text>
+    </string>
+    <string id="agr_factory_krot_start_15001">
+        <text>Gunslinger's cache.</text>
+    </string>
+    <string id="agr_factory_krot_start_15002">
+        <text>Thanks for the information</text>
+    </string>
+    <string id="agr_factory_krot_start_1501">
+        <text>Yeah, I heard about him, he used to earn his living here. There's a Gunslinger's cache somewhere in \nlocal cellars. They say it used to be a base of his grouping here.</text>
+    </string>
+    <string id="agr_factory_krot_start_1502">
+        <text>There is the only of many entrances, you will get through it in one of the basements connected with \neach other, well and there look by your own, I don't have any map, they are very long with in a \nnumber of \nrooms and pretty tangled.</text>
+    </string>
+    <string id="agr_factory_krot_start_2">
+        <text>I'm looking for the information about Gunslinger, seriy told me you know something.</text>
+    </string>
+    <string id="agr_factory_krot_start_30001">
+        <text>Thank you</text>
+    </string>
+    <string id="agr_factory_krot_start_3001">
+        <text>Yeah? we've looked for him too, but found nothing. I give you an information, maybe you're lucky. It is \nall information about cache we have.</text>
+    </string>
+    <string id="agr_factory_stalker_about_0">
+        <text>What are you doing in here?</text>
+    </string>
+    <string id="agr_factory_stalker_about_1">
+        <text>Sitting and putting our backs under the bullets. Ask Mole for details. He's a chief here.</text>
+    </string>
+    <string id="agr_factory_stalker_start_0">
+        <text>Gosh! It was a mayhem here, I won't bear this to the enemy. Those militaries are really becoming cheeky.</text>
+    </string>
+    <string id="agr_krot_about_agroprom_0">
+        <text>Where is Agroprom Research Institute situated?</text>
+    </string>
+    <string id="agr_krot_about_agroprom_10">
+        <text>It's at a stone's throw from here. Walk by road to the West - it leads straightly to one of the Institute's gates.</text>
+    </string>
+    <string id="agr_krot_about_agroprom_100">
+        <text>They say militans are based there right now.</text>
+    </string>
+    <string id="agr_krot_about_agroprom_120">
+        <text>Thanks for the information</text>
+    </string>
+    <string id="agr_krot_about_agroprom_130">
+        <text>Thanks.</text>
+    </string>
+    <string id="agr_krot_about_agroprom_20">
+        <text>There you might find the largest military base ever seen. I'm not up on how many of them are there, \nbut my experience says that it's not less than a platoon there. They are well armed, and you won't \nsucceed in breaking through, but if you decide to - they'll wipe you out without any hesitation. The \nbest time to get there is night. During day time tit is guarded. I heard there's a soldier from this base \nhiding in swamps</text>
+    </string>
+    <string id="agr_krot_actor_hasnot_met_seriy_0">
+        <text>This string was added automatically</text>
+    </string>
+    <string id="agr_krot_actor_hasnot_met_seriy_100">
+        <text>This string was added automatically</text>
+    </string>
+    <string id="agr_krot_actor_hasnot_met_seriy_200">
+        <text>This string was added automatically</text>
+    </string>
+    <string id="agr_krot_actor_hasnot_met_seriy_2000">
+        <text>This string was added automatically</text>
+    </string>
+    <string id="agr_krot_actor_hasnot_met_seriy_250">
+        <text>This string was added automatically</text>
+    </string>
+    <string id="agr_krot_actor_hasnot_met_seriy_2500">
+        <text>This string was added automatically</text>
+    </string>
+    <string id="agr_krot_actor_hasnot_met_seriy_3500">
+        <text>This string was added automatically</text>
+    </string>
+    <string id="agr_krot_actor_hasnot_met_seriy_400">
+        <text>This string was added automatically</text>
+    </string>
+    <string id="agr_krot_actor_met_seriy_100">
+        <text>This string was added automatically</text>
+    </string>
+    <string id="agr_krot_actor_met_seriy_2000">
+        <text>This string was added automatically</text>
+    </string>
+    <string id="agr_krot_actor_met_seriy_250">
+        <text>This string was added automatically</text>
+    </string>
+    <string id="agr_krot_help_0">
+        <text>This string was added automatically</text>
+    </string>
+    <string id="agr_krot_help_10">
+        <text>This string was added automatically</text>
+    </string>
+    <string id="agr_ratcatcher_start_0">
+        <text>This string was added automatically</text>
+    </string>
+    <string id="agr_stalker_esc_0">
+        <text>This string was added automatically</text>
+    </string>
+    <string id="agr_stalker_esc_20">
+        <text>This string was added automatically</text>
+    </string>
+    <string id="agr_stalker_esc_300">
+        <text>This string was added automatically</text>
+    </string>
+    <string id="agr_stalker_esc_400">
+        <text>This string was added automatically</text>
+    </string>
+    <string id="agr_stalker_talk_about_ratcatcher1_0">
+        <text>This string was added automatically</text>
+    </string>
+    <string id="agr_stalker_talk_about_ratcatcher1_1">
+        <text>This string was added automatically</text>
+    </string>
+    <string id="agr_stalker_talk_about_ratcatcher1_11">
+        <text>This string was added automatically</text>
+    </string>
+    <string id="agr_stalker_talk_about_ratcatcher1_111">
+        <text>This string was added automatically</text>
+    </string>
+    <string id="agr_stalker_talk_about_ratcatcher1_1111">
+        <text>This string was added automatically</text>
+    </string>
+    <string id="agr_stalker_talk_about_ratcatcher1_1112">
+        <text>This string was added automatically</text>
+    </string>
+    <string id="agr_stalker_talk_about_ratcatcher1_11121">
+        <text>This string was added automatically</text>
+    </string>
+    <string id="agr_stalker_talk_about_ratcatcher1_111211">
+        <text>This string was added automatically</text>
+    </string>
+    <string id="agr_stalker_talk_about_ratcatcher1_12">
+        <text>This string was added automatically</text>
+    </string>
+    <string id="agr_stalker_talk_about_ratcatcher1_121">
+        <text>This string was added automatically</text>
+    </string>
+    <string id="agr_stalker_talk_about_ratcatcher1_13">
+        <text>This string was added automatically</text>
+    </string>
+    <string id="agr_stalker_talk_about_ratcatcher1_14">
+        <text>This string was added automatically</text>
+    </string>
+    <string id="agr_stalker_talk_about_ratcatcher1_3">
+        <text>This string was added automatically</text>
+    </string>
+    <string id="agr_stalker_talk_about_ratcatcher1_31">
+        <text>This string was added automatically</text>
+    </string>
+    <string id="agr_stalker_talk_about_ratcatcher1_311">
+        <text>This string was added automatically</text>
+    </string>
+    <string id="agr_stalker_talk_about_ratcatcher_0">
+        <text>This string was added automatically</text>
+    </string>
+    <string id="agr_stalker_talk_about_ratcatcher_10">
+        <text>This string was added automatically</text>
+    </string>
+    <string id="agr_stalker_talk_about_ratcatcher_1000">
+        <text>This string was added automatically</text>
+    </string>
+    <string id="agr_stalker_talk_about_ratcatcher_120">
+        <text>This string was added automatically</text>
+    </string>
+    <string id="agr_stalker_talk_about_ratcatcher_130">
+        <text>This string was added automatically</text>
+    </string>
+    <string id="agr_stalker_talk_about_ratcatcher_131">
+        <text>This string was added automatically</text>
+    </string>
+    <string id="agr_stalker_talk_about_ratcatcher_140">
+        <text>This string was added automatically</text>
+    </string>
+    <string id="agr_stalker_talk_about_ratcatcher_20">
+        <text>This string was added automatically</text>
+    </string>
+    <string id="agr_stalker_talk_about_ratcatcher_21">
+        <text>This string was added automatically</text>
+    </string>
+    <string id="agr_stalker_talk_about_ratcatcher_30">
+        <text>This string was added automatically</text>
+    </string>
+    <string id="agr_stalker_talk_about_ratcatcher_40">
+        <text>This string was added automatically</text>
+    </string>
+    <string id="agr_stalker_talk_about_ratcatcher_9999">
+        <text>This string was added automatically</text>
+    </string>
+    <string id="agr_stalker_talk_level_0">
+        <text>This string was added automatically</text>
+    </string>
+    <string id="agr_stalker_talk_level_1">
+        <text>This string was added automatically</text>
+    </string>
+    <string id="agr_stalker_talk_level_2">
+        <text>This string was added automatically</text>
+    </string>
+    <string id="agr_stalker_talk_level_21">
+        <text>This string was added automatically</text>
+    </string>
+    <string id="agr_stalker_talk_level_3">
+        <text>This string was added automatically</text>
+    </string>
+    <string id="agr_stalker_talk_level_31">
+        <text>This string was added automatically</text>
+    </string>
+    <string id="agr_stalker_talk_level_4">
+        <text>This string was added automatically</text>
+    </string>
+    <string id="agr_swamp_ratcatcher_start_0">
+        <text>This string was added automatically</text>
+    </string>
+    <string id="agr_swamp_ratcatcher_talks1_0">
+        <text>This string was added automatically</text>
+    </string>
+    <string id="agr_swamp_ratcatcher_talks1_01">
+        <text>This string was added automatically</text>
+    </string>
+    <string id="agr_swamp_ratcatcher_talks1_011">
+        <text>This string was added automatically</text>
+    </string>
+    <string id="agr_swamp_ratcatcher_talks1_0111">
+        <text>This string was added automatically</text>
+    </string>
+    <string id="agr_swamp_ratcatcher_talks1_01111">
+        <text>This string was added automatically</text>
+    </string>
+    <string id="agr_swamp_ratcatcher_talks1_011111">
+        <text>This string was added automatically</text>
+    </string>
+    <string id="agr_swamp_ratcatcher_talks1_0111111">
+        <text>This string was added automatically</text>
+    </string>
+    <string id="agr_swamp_ratcatcher_talks1_012">
+        <text>This string was added automatically</text>
+    </string>
+    <string id="agr_swamp_ratcatcher_talks1_013">
+        <text>This string was added automatically</text>
+    </string>
+    <string id="agr_swamp_ratcatcher_talks1_0134">
+        <text>This string was added automatically</text>
+    </string>
+    <string id="agr_swamp_ratcatcher_talks1_0135">
+        <text>This string was added automatically</text>
+    </string>
+    <string id="agr_swamp_ratcatcher_talks1_01351">
+        <text>This string was added automatically</text>
+    </string>
+    <string id="agr_swamp_ratcatcher_talks1_123">
+        <text>This string was added automatically</text>
+    </string>
+    <string id="agr_swamp_ratcatcher_talks_0">
+        <text>This string was added automatically</text>
+    </string>
+    <string id="agr_swamp_ratcatcher_talks_10">
+        <text>This string was added automatically</text>
+    </string>
+    <string id="agr_swamp_ratcatcher_talks_100">
+        <text>This string was added automatically</text>
+    </string>
+    <string id="agr_swamp_ratcatcher_talks_120">
+        <text>This string was added automatically</text>
+    </string>
+    <string id="agr_swamp_ratcatcher_talks_130">
+        <text>This string was added automatically</text>
+    </string>
+    <string id="agr_swamp_ratcatcher_talks_140">
+        <text>This string was added automatically</text>
+    </string>
+    <string id="agr_swamp_ratcatcher_talks_141">
+        <text>This string was added automatically</text>
+    </string>
+    <string id="agr_swamp_ratcatcher_talks_20">
+        <text>This string was added automatically</text>
+    </string>
+    <string id="agr_swamp_ratcatcher_talks_30">
+        <text>This string was added automatically</text>
+    </string>
+    <string id="agr_swamp_ratcatcher_talks_40">
+        <text>This string was added automatically</text>
+    </string>
+    <string id="agr_swamp_ratcatcher_talks_50">
+        <text>This string was added automatically</text>
+    </string>
+</string_table>

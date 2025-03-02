@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="windows-1251" standalone="no" ?>
+<string_table>
+    <string id="dm_help_thanks_1">
+        <text>Thanks, dude.</text>
+    </string>
+    <string id="dm_help_thanks_2">
+        <text>Thanks to you from "Duty"</text>
+    </string>
+    <string id="dm_help_thanks_3">
+        <text>Thanks on behalf of the entire "Duty" faction</text>
+    </string>
+    <string id="dm_help_thanks_4">
+        <text>Thanks a lot to you.</text>
+    </string>
+    <string id="dm_help_thanks_5">
+        <text>That's a stuff, dude! Give me another one.</text>
+    </string>
+    <string id="dm_universal_action_info_1">
+        <text>Nothing happens here! This is a test level, jerk.</text>
+    </string>
+    <string id="dm_universal_action_info_2">
+        <text>Well, time to time someone goes knocked down. Whilst someone dies himself. Life is life.</text>
+    </string>
+    <string id="dm_universal_action_info_3">
+        <text>Well, I'm here for not so long, protecting that blockhead in gaudy outfit.</text>
+    </string>
+    <string id="dm_universal_action_info_4">
+        <text>What's your business in it? You are a spy, aren't you? Be off with you!</text>
+    </string>
+    <string id="dm_universal_action_info_5">
+        <text>Here... er... happening... Oh! happening! You're genius, dude!</text>
+    </string>
+    <string id="dm_universal_cool_info_1">
+        <text>Have you heard? Gunslinger is back!</text>
+    </string>
+    <string id="dm_universal_cool_info_2">
+        <text>The flesh is extremely good, when it's cooked on the aircraft fuel.</text>
+    </string>
+    <string id="dm_universal_cool_info_3">
+        <text>It's said that there is a klondike of artifacts! And the one who finds it - will be rich. Astonishingly rich. Do you hear?! ASTONISHINGLY!</text>
+    </string>
+    <string id="dm_universal_cool_info_4">
+        <text>AAAA! They've killed Kenny! Dumb assholes!</text>
+    </string>
+    <string id="dm_universal_cool_info_5">
+        <text>Freedom - is the gathering of freaks, created in order to train their pets in the Zone!</text>
+    </string>
+    <string id="dm_universal_cool_info_6">
+        <text>Dude, if you haven't been to the army, don't you enter Duty. Those grunts will torture us with their statute.</text>
+    </string>
+    <string id="dm_universal_hello_0">
+        <text>Hello, hobo!</text>
+    </string>
+    <string id="dm_universal_hello_1">
+        <text>Duty greets you!</text>
+    </string>
+    <string id="dm_universal_hello_2">
+        <text>Good day, sir!</text>
+    </string>
+    <string id="dm_universal_hello_3">
+        <text>Hello, can I help you somehow?</text>
+    </string>
+    <string id="dm_universal_hello_4">
+        <text>Freedom can't be stopped!</text>
+    </string>
+    <string id="dm_universal_hello_5">
+        <text>Need first-aid kit... I'm dying!</text>
+    </string>
+    <string id="dm_universal_trade_info_1">
+        <text>Information on "Groza". 1000 cash.</text>
+    </string>
+    <string id="dm_universal_trade_info_2">
+        <text>Information on "FN2000". 2000 cash.</text>
+    </string>
+    <string id="dm_universal_trade_info_3">
+        <text>Information on the flesh. 500 cash.</text>
+    </string>
+    <string id="dm_universal_trade_info_4">
+        <text>Information on the safe places at cordon. 100 cash.</text>
+    </string>
+</string_table>

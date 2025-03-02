@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="windows-1251" ?>
+<map_spots>
+
+#include "ui\map_spots_escape.xml"
+#include "ui\map_spots_garbage.xml"
+#include "ui\map_spots_agroprom.xml"
+#include "ui\map_spots_darkvalley.xml"
+#include "ui\map_spots_bar.xml"
+#include "ui\map_spots_military.xml"
+#include "ui\map_spots_radar.xml"
+#include "ui\map_spots_mp.xml"
+#include "ui\map_spots_relations.xml"
+#include "ui\map_spots_lchangers.xml"
+
+	<quest_pointer x="0" y="0" width="15" height="17" heading="1" alignment="c"> 
+		<texture x="8" y="7" width="15" height="17" r="200" g="200" b="200">ui\ui_map_arrow_02</texture>
+	</quest_pointer>
+	
+	<blue_location>
+		<level_map spot="blue_spot"			pointer="quest_pointer"/>
+		<mini_map spot="blue_mini_spot"		pointer="quest_pointer"/>
+	</blue_location>
+	<blue_spot  x="0" y="0" width="32" height="32" alignment="c">
+		<texture x="525" y="872" width="32" height="32">ui\ui_common</texture>
+		<texture_below x="0" y="4" width="8" height="4" r="0" g="255" b="0" stretch = "1">ui\ui_mini_af_spot</texture_below>
+		<texture_above x="0" y="0" width="8" height="4" r="0" g="255" b="0" stretch = "1">ui\ui_mini_af_spot</texture_above>
+	</blue_spot>
+	<blue_mini_spot  x="0" y="0" width="11" height="11" alignment="c">
+		<texture x="493" y="1000" width="11" height="11">ui\ui_common</texture>
+		<texture_below x="0" y="4" width="8" height="4" r="0" g="255" b="0" stretch = "1">ui\ui_mini_af_spot</texture_below>
+		<texture_above x="0" y="0" width="8" height="4" r="0" g="255" b="0" stretch = "1">ui\ui_mini_af_spot</texture_above>		
+	</blue_mini_spot>
+
+	<crlc_big>
+		<level_map spot="crlc_big_spot"		pointer="quest_pointer"/>
+	</crlc_big>
+	<crlc_big_spot  x="0" y="0" width="15" height="15" alignment="c" scale="1" stretch = "1">
+		<texture x="730" y="456" width="115" height="115">ui\ui_common</texture>
+	</crlc_big_spot>
+
+	<crlc_mdl>
+		<level_map spot="crlc_mdl_spot"		pointer="quest_pointer"/>
+	</crlc_mdl>
+	<crlc_mdl_spot  x="0" y="0" width="8" height="8" alignment="c" scale="1" stretch = "1">
+		<texture x="858" y="392" width="62" height="62">ui\ui_common</texture>
+	</crlc_mdl_spot>
+	
+	<crlc_small>
+		<level_map spot="crlc_small_spot"	pointer="quest_pointer"/>
+	</crlc_small>
+	<crlc_small_spot  x="0" y="0" width="4" height="4" alignment="c" scale="1" stretch = "1">
+		<texture x="633" y="789" width="31" height="31">ui\ui_common</texture>
+	</crlc_small_spot>
+
+	<green_location>
+		<level_map spot="green_spot"		pointer="quest_pointer"/>
+		<mini_map spot="green_mini_spot"	pointer="quest_pointer"/>
+	</green_location>
+	<green_spot  x="0" y="0" width="32" height="32" alignment="c">
+		<texture x="525" y="904" width="32" height="32">ui\ui_common</texture>
+		<texture_below x="0" y="4" width="8" height="4" r="0" g="255" b="0" stretch = "1">ui\ui_mini_af_spot</texture_below>
+		<texture_above x="0" y="0" width="8" height="4" r="0" g="255" b="0" stretch = "1">ui\ui_mini_af_spot</texture_above>				
+	</green_spot>
+	<green_mini_spot  x="0" y="0" width="11" height="11" alignment="c">
+		<texture x="515" y="1000" width="11" height="11">ui\ui_common</texture>
+		<texture_below x="0" y="4" width="8" height="4" r="0" g="255" b="0" stretch = "1">ui\ui_mini_af_spot</texture_below>
+		<texture_above x="0" y="0" width="8" height="4" r="0" g="255" b="0" stretch = "1">ui\ui_mini_af_spot</texture_above>
+	</green_mini_spot>
+	
+	<red_location>
+		<level_map spot="red_spot"			pointer="quest_pointer"/>
+		<mini_map spot="red_mini_spot"		pointer="quest_pointer"/>
+	</red_location>
+	<red_spot  x="0" y="0" width="32" height="32" alignment="c">
+		<texture x="665" y="853" width="32" height="32">ui\ui_common</texture>
+		<texture_below x="0" y="4" width="8" height="4" r="0" g="255" b="0" stretch = "1">ui\ui_mini_af_spot</texture_below>
+		<texture_above x="0" y="0" width="8" height="4" r="0" g="255" b="0" stretch = "1">ui\ui_mini_af_spot</texture_above>		
+	</red_spot>
+	<red_mini_spot  x="0" y="0" width="11" height="11" alignment="c">
+		<texture x="526" y="1000" width="11" height="11">ui\ui_common</texture>
+		<texture_below x="0" y="4" width="8" height="4" r="0" g="255" b="0" stretch = "1">ui\ui_mini_af_spot</texture_below>
+		<texture_above x="0" y="0" width="8" height="4" r="0" g="255" b="0" stretch = "1">ui\ui_mini_af_spot</texture_above>		
+	</red_mini_spot>
+	
+
+
+
+	<level_map_spot_border x="0" y="0" width="36" height="36" alignment="c" stretch="1">
+		<texture x="728" y="576" width="51" height="51" r="200" g="200" b="200">ui\ui_common</texture>
+		<texture_bk x="633" y="693" width="32" height="32" r="200" g="200" b="200">ui\ui_common</texture_bk>
+	</level_map_spot_border>
+	
+	<mini_map_spot_border x="0" y="0" width="18" height="18" alignment="c" stretch="1">
+		<texture x="728" y="576" width="51" height="51" r="200" g="200" b="200">ui\ui_common</texture>
+		<texture_bk x="501" y="944" width="15" height="15" r="200" g="200" b="200">ui\ui_common</texture_bk>
+	</mini_map_spot_border>
+
+	<user>
+		<level_map spot="user_level_spot" pointer="quest_pointer"></level_map>
+		<mini_map spot="user_mini_spot" pointer="quest_pointer"></mini_map>
+	</user>
+	<user_level_spot x="0" y="0" width="32" height="32" alignment="c">
+	   <texture x="493" y="968" width="32" height="32">ui\ui_common</texture>
+	</user_level_spot>
+	<user_mini_spot x="0" y="0" width="11" height="11" alignment="c">
+	   <texture x="504" y="1000" width="11" height="11">ui\ui_common</texture>
+	</user_mini_spot>
+
+
+
+	<actor_location hint="st_map_actor">
+		<level_map spot="actor_level_spot"/>
+	</actor_location>
+	
+	<actor_location_p hint="actor">
+		<level_map spot="actor_level_spot_p"></level_map>
+	</actor_location_p>
+
+	<actor_level_spot x="0" y="0" width="60" height="60" alignment="c">
+		<texture x="730" y="394" width="60" height="60">ui\ui_common</texture>
+	</actor_level_spot>
+	
+	<actor_level_spot_p x="0" y="0" width="60" height="60" heading="1" alignment="c">
+		<texture x="794" y="394" width="60" height="60">ui\ui_common</texture>
+	</actor_level_spot_p>
+
+	
+	<general_wounded_location hint="general_wounded">
+		<level_map spot="general_wounded_spot"></level_map>
+		<mini_map  spot="general_wounded_spot"></mini_map>
+	</general_wounded_location>
+	<general_wounded_spot x="0" y="0" width="32" height="32" alignment="c">
+		<texture x="224" y="64" width="32" height="32">ui\ui_icons_map</texture>
+	</general_wounded_spot>
+	
+	
+
+	
+	<anomaly_zone_location hint="anomaly_zone">
+		<mini_map  spot="anomaly_zone_mini_spot"/>
+	</anomaly_zone_location>
+
+	<anomaly_zone_mini_spot x="0" y="0" width="16" height="16" alignment="c" stretch="1"> 
+		<texture x="1" y="202" width="31" height="30" r="255" g="100" b="100">ui\ui_mp_icon_kill</texture>
+	</anomaly_zone_mini_spot>
+	
+	
+	<level_changer>
+		<level_map spot="level_changer_spot" pointer="quest_pointer"/>
+		<mini_map  spot="level_changer_spot_mini"/>
+	</level_changer>
+	<level_changer_spot  x="0" y="0" width="5" height="5" alignment="c" stretch="1" scale="1">
+		<texture x="728" y="577" width="50" height="50">ui\ui_common</texture>
+	</level_changer_spot>
+	<level_changer_spot_mini  x="0" y="0" width="35" height="35" alignment="c" stretch="1" scale="1">
+		<texture x="728" y="577" width="50" height="50">ui\ui_common</texture>
+	</level_changer_spot_mini>
+
+	<debug_stalker hint="invalid hint">
+		<level_map spot="debug_stalker_spot"/>
+	</debug_stalker>
+	
+	<!--
+	<debug_stalker_spot x="0" y="0" width="60" height="60" alignment="c">
+		<texture x="730" y="394" width="60" height="60" r=128>ui\ui_common</texture>
+	</debug_stalker_spot>	
+	-->
+
+	<debug_stalker_spot height="3" alignment="c"> 
+		<texture r="50" g="255" b="0">ui\hud_map_point</texture>
+	</debug_stalker_spot>
+	
+</map_spots>

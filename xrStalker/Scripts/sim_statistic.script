@@ -1,0 +1,107 @@
+-- Сбор информации о том, какие сталкеры и в каком количестве обитают в симуляции
+
+
+-- Была ли произведена реинициализация после лоада.
+local reinit_complete = false
+local simulator = nil
+
+class "simulation_statistic"
+function simulation_statistic:__init()
+	self.objects = {}
+	self.allocation = {}
+end
+function simulation_statistic:add(npc)
+	local community, rank = self:getNpcType(npc)
+	self.objects[npc.id] = {community = community, rank = rank}
+	if self.allocation[community] == nil then
+		self.allocation[community] = {}
+	end
+	if self.allocation[community][rank] == nil then
+		self.allocation[community][rank] = 0
+	end
+	self.allocation[community][rank] = self.allocation[community][rank] + 1
+end
+function simulation_statistic:remove(npc)
+	local community, rank = self.objects[npc.id].community, self.objects[npc.id].rank
+	self.allocation[community][rank] = self.allocation[community][rank] - 1
+	self.objects[npc.id] = nil
+end
+function simulation_statistic:getNpcType(npc)
+	local cls = npc:clsid()
+
+	if cls == clsid.script_stalker then
+		local community = npc:community()
+		
+		local rank = ranks.get_obj_rank_name(npc)
+		return community, rank
+	else
+		local community = xr_statistic.monster_classes[cls]
+		if community == nil then
+			abort("Statistic ERROR: cannot find monstr class for clsid[%s]", get_clsid(npc))
+		end
+	
+		local rank = ranks.get_obj_rank_name(npc)
+		return community, rank
+	end
+end
+function simulation_statistic:simNpcCount(community, rank)
+	if self.allocation[community] == nil then
+		return 0
+	end
+	if self.allocation[community][rank] == nil then
+		return 0
+	end
+	return self.allocation[community][rank]
+end
+function simulation_statistic:pstats(npc)
+	printf("*** SIMULATION POPULATION STATISTIC ***")
+	print_table(self.allocation)
+	local sum = 0
+	for k,v in pairs(self.allocation) do
+		for kk,vv in pairs(v) do
+			sum = sum + vv
+		end	
+	end
+	printf("TOTAL: [%s]", sum)		
+end
+
+
+-- На первом вызове апдейта снимаем флаг о том, что реинициализация уже произведена
+function update()
+	reinit_complete = false
+end
+-- Вызывать на регистре смарттеррейна
+function reinit()
+	if reinit_complete == false then
+		simulator = nil
+		reinit_complete = true
+	end
+end
+-- Регистрация чувака
+function add(npc)
+	if simulator == nil then
+		simulator = simulation_statistic()
+	end
+	simulator:add(npc)
+end
+-- Неригистрация
+function remove(npc)
+	if simulator == nil then
+		return
+	end
+	simulator:remove(npc)
+end
+-- Проверка сколько всего сталкеров есть в симуляции
+function simNpcCount(community, rank)
+	if simulator == nil then
+		return 0
+	end
+	return simulator:simNpcCount(community, rank)
+end
+
+function pstats()
+	if simulator == nil then
+		return
+	end
+	simulator:pstats(npc)
+end
